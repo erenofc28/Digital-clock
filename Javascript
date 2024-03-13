@@ -1,0 +1,18 @@
+
+function king(){
+let datetime = new Date();
+let hr = add(datetime.getHours())
+let min = add(datetime.getMinutes())
+let sec = add(datetime.getSeconds())
+document.getElementById('din').innerHTML = hr
+document.getElementById('minutes').innerHTML = min
+document.getElementById('seconds').innerHTML = sec
+console.log("hello")
+
+}
+
+
+function add(name){
+   return name<10?"0"+name:name
+}
+setInterval(king,500)
