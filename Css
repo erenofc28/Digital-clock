@@ -1,0 +1,32 @@
+.container{
+
+   height: 170px;
+   width: 430px;
+   margin-top: 14%;
+   margin-left: 32%;
+   font-size: 80px;
+   border: solid aliceblue;
+      display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 10px;
+   color: aliceblue;
+   padding: 6px;
+
+}
+body{
+   background:linear-gradient(109.6deg,rgb(76, 70, 178)11.2%,rgb(69,179,224)100.1%) ;
+}
+#ampm{
+   font-size: 30px;
+   margin-top: 25px;
+   margin-right: 10px;
+   font-family:'sans-serif';
+}
+#din{
+   padding: 20px;
+}
+
+#seconds{
+   padding: 20px;
+}
